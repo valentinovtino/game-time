@@ -1,5 +1,10 @@
 #game {
   border: 1px dashed;
   margin: auto;
+  margin-top: 50px;
   display: block;
+}
+
+.score-display {
+  font-size: 22px;
 }
