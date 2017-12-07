@@ -2,6 +2,12 @@ article {
   display: inline;
 }
 
+.dash-1,
+.dash-2,
+.dash-3 {
+  margin-right: 164px;
+}
+
 .dashboard {
   text-align: center;
   width: 800px;
@@ -15,7 +21,7 @@ article {
 .score-display {
   display: inline-block;
   font-size: 22px;
-  margin: 10px 20px 0px 20px;
+  margin: 0px 10px;
 }
 
 .reset-button {
@@ -28,6 +34,7 @@ article {
   margin-top: 50px;
   display: block;
 }
+
 
 
 
