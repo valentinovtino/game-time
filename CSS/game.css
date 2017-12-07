@@ -6,6 +6,7 @@ article {
   text-align: center;
   width: 800px;
   margin: auto;
+/*  visibility: hidden;*/
 }
 
 .level-display,
@@ -15,15 +16,10 @@ article {
   display: inline-block;
   font-size: 22px;
   margin: 10px 20px 0px 20px;
-  /*visibility: hidden;*/
 }
 
 .reset-button {
   margin-top: 20px;
-}
-
-.reset-game {
-  text-align: center;
 }
 
 #game {
