@@ -15,38 +15,34 @@ body {
 }
 
 .dashboard {
+  margin: auto;
   text-align: center;
   width: 800px;
-  margin: auto;
-/*  visibility: hidden;*/
 }
 
 .level-display,
 .lives-remaining,
 .reset-button,
 .score-display {
+  color: white;
   display: inline-block;
+  font-family: 'Bungee', cursive;
   font-size: 22px;
   margin: 0px 10px;
-  color: white;
-  font-family: 'Bungee', cursive;
-}
-
-#start-game{
 }
 
 .reset-button {
-  margin-top: 20px;
   background-color: black;
+  margin-top: 20px;
 }
 
 #game {
   background-image: url('../Images/obama-start.jpg');
   border: 1px dashed;
+  display: block;
   margin: auto;
   margin-top: 50px;
   opacity: .8;
-  display: block;
 }
 
 
