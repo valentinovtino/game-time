@@ -1,3 +1,33 @@
+article {
+  display: inline;
+}
+
+.dash-1,
+.dash-2,
+.dash-3 {
+  margin-right: 164px;
+}
+
+.dashboard {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+/*  visibility: hidden;*/
+}
+
+.level-display,
+.lives-remaining,
+.reset-button,
+.score-display {
+  display: inline-block;
+  font-size: 22px;
+  margin: 0px 10px;
+}
+
+.reset-button {
+  margin-top: 20px;
+}
+
 #game {
   border: 1px dashed;
   margin: auto;
@@ -5,10 +35,12 @@
   display: block;
 }
 
-.score-display {
-  font-size: 22px;
-}
 
-.lvl-start {
-  visibility: hidden;
-}
+
+
+
+
+
+
+
+
