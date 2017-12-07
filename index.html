@@ -6,14 +6,24 @@
   <link rel="stylesheet" type="text/css" href="CSS/game.css">
 </head>
 <body>
-  <p class="score-display">Score:</p>
-  <p class="score-display" id="score-num"></p>
-  <p class="lives-remaining">Balls Remaining:</p>
-  <p class="lives-remaining" id="lives-num"></p>
+  <section class="dashboard">
+    <article class="dash-1">
+      <p class="score-display">Score:</p>
+      <p class="score-display" id="score-num">0000</p>
+    </article>
+    <article class="dash-2">
+      <p class="lives-remaining">Balls Remaining:</p>
+      <p class="lives-remaining" id="lives-num">3</p>
+    </article>
+    <article class="dash-3">
+      <p class="level-display">Level:</p>
+      <p class="level-display" id="level-num"> 00</p>
+    </article>
+  </section>
   <canvas hidden="true" id='game' width='800' height="500"></canvas>
-<!--   <button class="start-button">Start</button> -->
-<!--   <button class="lvl-start">Click To Advance</button> -->
-  <button class="reset-button">Reset Game</button>
+  <section class="reset-game">
+    <button class="reset-button">Reset Game</button>
+  </section>
   <script src="main.bundle.js"></script>
 </body>
 </html>
