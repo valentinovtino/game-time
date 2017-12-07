@@ -25,7 +25,7 @@ describe('Paddle', function() {
     assert.equal(paddle.width, 70);
   });
 
-  it('it should have a height', function() {
+  it('should have a height', function() {
     assert.equal(paddle.height, 20);
   });
 
