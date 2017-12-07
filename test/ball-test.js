@@ -30,15 +30,6 @@ describe('Ball', function() {
     assert.equal(ball.radius, 6);
   });
 
-  it('should reverse direction when it hits sides of the wall', function() {
-    ball.dx = -1;
-    assert.equal(ball.dx, -1);
-    ball.wallCollision;
-    if(ball.x < 0) {
-      assert.equal(ball.dx, 1);
-    }
-  })
-
   it('should move at the speed of it\'s .dx value', function() {
     ball.dx = 5;
     ball.x = 100;
@@ -48,6 +39,15 @@ describe('Ball', function() {
     ball.move();
 
     assert.equal(ball.x, 105);
-  })
+  });
+
+  it('should reverse direction when it hits sides of the wall', function() {
+    ball.dx = -1;
+    assert.equal(ball.dx, -1);
+    ball.wallCollision;
+    if (ball.x < 0) {
+      assert.equal(ball.dx, 1);
+    }
+  });
 
 })
