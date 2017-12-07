@@ -2,6 +2,12 @@ article {
   display: inline;
 }
 
+body {
+  background-image: url('../Images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .dash-1,
 .dash-2,
 .dash-3 {
@@ -22,16 +28,24 @@ article {
   display: inline-block;
   font-size: 22px;
   margin: 0px 10px;
+  color: white;
+  font-family: 'Bungee', cursive;
+}
+
+#start-game{
 }
 
 .reset-button {
   margin-top: 20px;
+  background-color: black;
 }
 
 #game {
+  background-image: url('../Images/obama-start.jpg');
   border: 1px dashed;
   margin: auto;
   margin-top: 50px;
+  opacity: .8;
   display: block;
 }
 
