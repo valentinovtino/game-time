@@ -29,7 +29,31 @@ describe('Paddle', function() {
     assert.equal(paddle.height, 20);
   });
 
-  it('should stop once it reaches the edge of the canvas', function() {
-    assert.equal(paddle.x, 365);
+  it('should not be able to go off the right side of canvas', function() {
+    let paddleLeft = paddle.x;
+    let paddleRight = paddle.x + 70;
+
+    assert.equal(paddleRight < 800, true);
+    paddle.stopPaddle();
+    assert.equal(paddleRight < 800, true);
   })
+
+  it('should not be able to go off the left side of canvas', function() {
+    let paddleLeft = paddle.x;
+    let paddleRight = paddle.x + 70;
+
+    assert.equal(paddleLeft > 0, true);
+    paddle.stopPaddle();
+    assert.equal(paddleLeft > 0, true);
+  })
+
 }); 
+
+
+
+
+
+
+
+
+
